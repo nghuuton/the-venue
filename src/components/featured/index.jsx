@@ -1,5 +1,6 @@
 import React from "react";
 import Carrousel from "./Carrousel";
+import TimeUtil from "./TimeUtil";
 
 export default function Featured() {
   return (
@@ -8,6 +9,7 @@ export default function Featured() {
       <div className="artist_name">
         <div className="wrapper">Arina Grande</div>
       </div>
+      <TimeUtil />
     </div>
   );
 }
