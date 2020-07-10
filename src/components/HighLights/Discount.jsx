@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import MyButton from "../utils/MyButton";
 
 const Discount = () => {
   const [disCountStart, setDisCountStart] = useState(0);
-  const [disCountEnd, setDisCountEnd] = useState(30);
+  const [disCountEnd] = useState(30);
   function procentage() {
     if (disCountStart < disCountEnd) {
       setDisCountStart(disCountStart + 1);

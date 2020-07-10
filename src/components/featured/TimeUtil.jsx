@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Slide from "react-reveal/Slide";
 
 export default function TimeUtil() {
-  const [deadline, setDeadline] = useState("Jul, 31, 2020");
+  const [deadline] = useState("Jul, 31, 2020");
   const [days, setDays] = useState("0");
   const [hours, setHours] = useState("0");
   const [minutes, setMinutes] = useState("0");
