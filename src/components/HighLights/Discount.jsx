@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
+import MyButton from "../utils/MyButton";
 
 const Discount = () => {
   const [disCountStart, setDisCountStart] = useState(0);
@@ -37,7 +38,12 @@ const Discount = () => {
               quae illo inventore verritatis et quasi archiecto beatae vitae
               dicta sunt explocabo.
             </p>
-            <div>button</div>
+            <MyButton
+              text="Purchase tickets"
+              bck="#ffa800"
+              color="#fff"
+              link=""
+            />
           </div>
         </Slide>
       </div>
