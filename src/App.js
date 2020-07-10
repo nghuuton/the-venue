@@ -2,6 +2,7 @@ import React from "react";
 import "./resources/styles.css";
 import Header from "./components/header_footer/Header";
 import Featured from "./components/featured";
+import VenueNfo from "./components/venueNfo";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     >
       <Header />
       <Featured />
+      <VenueNfo />
     </div>
   );
 }
